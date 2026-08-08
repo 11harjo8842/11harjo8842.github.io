@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loja — Pescaria do Chat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎣</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">🎣 Pescaria do Chat</a>
+  <nav class="site-nav">
+      <a href="index.html">Início</a>
+      <a href="tutorial.html">Tutorial</a>
+      <a href="loja.html" class="active">Loja</a>
+      <a href="ranking.html">Ranking</a>
+  </nav>
+</header>
+<main>
+
+<h1 class="page-title">Loja</h1>
+<p class="subtitle">Compre com <code>$comprar &lt;id&gt; [quantidade]</code>. Pago em nakoins (1 bit cheerado = 1 nakoin, ou venda peixes com <code>$vender</code>).</p>
+
+<section class="block">
+  <h2>Varas (upgrade permanente)</h2>
+  <p>Reduz o cooldown de <code>$pescar</code> enquanto equipada. Cada uma só
+  precisa ser comprada uma vez — trocar de volta pra uma que você já tem é
+  de graça.</p>
+  <table class="ledger">
+    <thead><tr><th>id</th><th>nome</th><th>custo</th><th>efeito</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="id">vara_bambu</td>
+        <td>Vara de Bambu</td>
+        <td>grátis</td>
+        <td>cooldown 10 min</td>
+      </tr>
+      <tr>
+        <td class="id">vara_fibra</td>
+        <td>Vara de Fibra de Vidro</td>
+        <td><span class="num">300</span> nakoins</td>
+        <td>cooldown 8 min</td>
+      </tr>
+      <tr>
+        <td class="id">vara_carbono</td>
+        <td>Vara de Carbono</td>
+        <td><span class="num">600</span> nakoins</td>
+        <td>cooldown 6 min</td>
+      </tr>
+      <tr>
+        <td class="id">vara_encantada</td>
+        <td>Vara Encantada</td>
+        <td><span class="num">900</span> nakoins</td>
+        <td>cooldown 4 min</td>
+      </tr></tbody>
+  </table>
+</section>
+
+<section class="block">
+  <h2>Iscas (consumível)</h2>
+  <p>Usada automaticamente na próxima <code>$pescar</code> (a mais forte
+  primeiro), consumindo 1 unidade do estoque.</p>
+  <table class="ledger">
+    <thead><tr><th>id</th><th>nome</th><th>custo</th><th>efeito</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="id">isca_turbinada</td>
+        <td>Isca Turbinada</td>
+        <td><span class="num">450</span> nakoins</td>
+        <td>garante fisgada</td>
+      </tr>
+      <tr>
+        <td class="id">isca_milagrosa</td>
+        <td>Isca Milagrosa</td>
+        <td><span class="num">1500</span> nakoins</td>
+        <td>garante fisgada + raro x2, lendario x2, mitico x2, secreto x2</td>
+      </tr></tbody>
+  </table>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>Pescaria do Chat — minigame de pesca pro chat da Twitch. Comandos usam o prefixo <code>$</code>.</p>
+</footer>
+</body>
+</html>

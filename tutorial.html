@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorial — Pescaria do Chat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎣</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">🎣 Pescaria do Chat</a>
+  <nav class="site-nav">
+      <a href="index.html">Início</a>
+      <a href="tutorial.html" class="active">Tutorial</a>
+      <a href="loja.html">Loja</a>
+      <a href="ranking.html">Ranking</a>
+  </nav>
+</header>
+<main>
+
+<h1 class="page-title">Tutorial</h1>
+<p class="subtitle">Como jogar Pescaria do Chat — todos os comandos começam com <code>$</code> e são digitados direto no chat.</p>
+
+<section class="block">
+  <h2>Como jogar</h2>
+  <p>Digite <code>$pescar</code> pra jogar a isca. Você pode não pescar nada
+  (acontece bastante) ou fisgar um peixe, ganhando pontos — o peixe fica
+  registrado no seu inventário (<code>$inventario</code>).</p>
+  <p>Depois de pescar, o cooldown padrão é de <strong>10 min</strong>,
+  reduzido comprando varas melhores na loja.</p>
+</section>
+
+<section class="block">
+  <h2>Raridade dos peixes</h2>
+  <p>53 espécies sul-americanas — água doce e
+  costa/mar — divididas em 6 raridades. Quanto
+  mais fundo no rio, mais raro e mais pontos vale.</p>
+  <div class="depth-gauge">
+      <div class="depth-row">
+        <div class="depth-band" style="background:var(--tier-comum)"></div>
+        <div class="depth-content">
+          <h4 style="color:var(--tier-comum)">Comum
+            <span class="chance">54.5% de chance (dado que fisgou algo)</span>
+          </h4>
+          <p class="species">lambari <span class="fid">[lambari]</span>, cascudo <span class="fid">[cascudo]</span>, piau <span class="fid">[piau]</span>, tilápia <span class="fid">[tilapia]</span>, carpa <span class="fid">[carpa]</span>, mandi <span class="fid">[mandi]</span>, jundiá <span class="fid">[jundia]</span>, acará <span class="fid">[acara]</span>, sardinha <span class="fid">[sardinha]</span>, manjuba <span class="fid">[manjuba]</span></p>
+        </div>
+      </div>
+      <div class="depth-row">
+        <div class="depth-band" style="background:var(--tier-incomum)"></div>
+        <div class="depth-content">
+          <h4 style="color:var(--tier-incomum)">Incomum
+            <span class="chance">25% de chance (dado que fisgou algo)</span>
+          </h4>
+          <p class="species">traíra <span class="fid">[traira]</span>, curimatá <span class="fid">[curimata]</span>, piapara <span class="fid">[piapara]</span>, corvina <span class="fid">[corvina]</span>, piranha <span class="fid">[piranha]</span>, matrinxã <span class="fid">[matrinxa]</span>, jaraqui <span class="fid">[jaraqui]</span>, tainha <span class="fid">[tainha]</span>, pescada <span class="fid">[pescada]</span>, robalo-peva <span class="fid">[robalo_peva]</span>, aracu <span class="fid">[aracu]</span></p>
+        </div>
+      </div>
+      <div class="depth-row">
+        <div class="depth-band" style="background:var(--tier-raro)"></div>
+        <div class="depth-content">
+          <h4 style="color:var(--tier-raro)">Raro
+            <span class="chance">12% de chance (dado que fisgou algo)</span>
+          </h4>
+          <p class="species">pacu <span class="fid">[pacu]</span>, tucunaré <span class="fid">[tucunare]</span>, dourado <span class="fid">[dourado]</span>, tambaqui <span class="fid">[tambaqui]</span>, trairão <span class="fid">[trairao]</span>, robalo <span class="fid">[robalo]</span>, garoupa <span class="fid">[garoupa]</span>, namorado <span class="fid">[namorado]</span>, cavala <span class="fid">[cavala]</span>, bicuda <span class="fid">[bicuda]</span>, linguado <span class="fid">[linguado]</span></p>
+        </div>
+      </div>
+      <div class="depth-row">
+        <div class="depth-band" style="background:var(--tier-lendario)"></div>
+        <div class="depth-content">
+          <h4 style="color:var(--tier-lendario)">Lendário
+            <span class="chance">6% de chance (dado que fisgou algo)</span>
+          </h4>
+          <p class="species">surubim <span class="fid">[surubim]</span>, pintado <span class="fid">[pintado]</span>, piraíba <span class="fid">[piraiba]</span>, cachara <span class="fid">[cachara]</span>, badejo <span class="fid">[badejo]</span>, cherne <span class="fid">[cherne]</span>, xaréu <span class="fid">[xareu]</span>, pargo <span class="fid">[pargo]</span>, cioba <span class="fid">[cioba]</span></p>
+        </div>
+      </div>
+      <div class="depth-row">
+        <div class="depth-band" style="background:var(--tier-mitico)"></div>
+        <div class="depth-content">
+          <h4 style="color:var(--tier-mitico)">Mítico
+            <span class="chance">2% de chance (dado que fisgou algo)</span>
+          </h4>
+          <p class="species">jaú gigante <span class="fid">[jau_gigante]</span>, pirarucu <span class="fid">[pirarucu]</span>, agulhão <span class="fid">[agulhao]</span>, espadarte <span class="fid">[espadarte]</span>, arraia gigante <span class="fid">[arraia_gigante]</span>, tubarão <span class="fid">[tubarao]</span></p>
+        </div>
+      </div>
+      <div class="depth-row">
+        <div class="depth-band" style="background:var(--tier-secreto)"></div>
+        <div class="depth-content">
+          <h4 style="color:var(--tier-secreto)">Secreto
+            <span class="chance">0.5% de chance (dado que fisgou algo)</span>
+          </h4>
+          <p class="species">kraken <span class="fid">[kraken]</span>, megalodon <span class="fid">[megalodon]</span>, leviatã <span class="fid">[leviata]</span>, iara <span class="fid">[iara]</span>, cobra grande <span class="fid">[cobra_grande]</span>, boto cor-de-rosa <span class="fid">[boto]</span></p>
+        </div>
+      </div></div>
+  <p style="margin-top:1.5rem">A raridade <strong style="color:var(--glow)">Secreto</strong>
+  foge do rio de verdade: são criaturas lendárias, do folclore brasileiro
+  (iara, cobra grande, boto cor-de-rosa) e da mitologia mundial (kraken,
+  megalodon, leviatã).</p>
+</section>
+
+<section class="block">
+  <h2>Loja</h2>
+  <p><strong>Nakoins</strong> é a moeda do jogo. Você ganha de duas formas:
+  cheerando bits (1 bit = 1 nakoin) ou vendendo peixes do inventário com
+  <code>$vender &lt;id&gt; [qtd]</code>. Gasta com
+  <code>$comprar &lt;id&gt; [qtd]</code> — catálogo completo na
+  <a href="loja.html">página da loja</a>.</p>
+</section>
+
+<section class="block">
+  <h2>Duelos</h2>
+  <p>Só moderadores/streamer organizam: <code>$duelar &lt;u1&gt; &lt;u2&gt;</code>.
+  Os dois precisam aceitar com <code>$aceitar &lt;oponente&gt;</code> em até
+  5 minutos. Depois de confirmado, o próximo <code>$pescar</code>
+  de cada um decide — só os dois duelistas conseguem pescar enquanto o
+  duelo estiver rolando, e ele expira em 1 minuto(s) se
+  ninguém terminar. Quem tiver a captura melhor leva os dois peixes; se só
+  um pescar algo, ele fica com 5 nakoins de bônus.
+  Depois de um duelo terminar, os dois ficam 30 minutos
+  sem poder duelar de novo.</p>
+</section>
+
+<section class="block">
+  <h2>Comandos</h2>
+  <ul class="command-list">
+    <li><code>$pescar</code><span>joga a isca e tenta pescar</span></li>
+    <li><code>$inventario</code><span>seus peixes, pontos, vara e nakoins</span></li>
+    <li><code>$ranking</code><span>top 3 pela melhor captura de todos os tempos</span></li>
+    <li><code>$rankingpts</code><span>top 3 por pontos acumulados</span></li>
+    <li><code>$nakoins</code><span>seu saldo de nakoins</span></li>
+    <li><code>$loja</code><span>link desta página de loja</span></li>
+    <li><code>$comprar &lt;id&gt; [qtd]</code><span>compra uma vara ou isca</span></li>
+    <li><code>$vender &lt;id&gt; [qtd]</code><span>vende peixes do inventário</span></li>
+    <li><code>$duelar &lt;u1&gt; &lt;u2&gt;</code><span>(mods/streamer) organiza um duelo</span></li>
+    <li><code>$aceitar &lt;oponente&gt;</code><span>aceita um duelo organizado</span></li>
+    <li><code>$comandos</code><span>lista rápida no chat</span></li>
+    <li><code>$tutorial</code><span>link desta página</span></li>
+  </ul>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>Pescaria do Chat — minigame de pesca pro chat da Twitch. Comandos usam o prefixo <code>$</code>.</p>
+</footer>
+</body>
+</html>
