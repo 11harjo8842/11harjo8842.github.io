@@ -259,6 +259,16 @@ table.ledger .id { font-family: var(--mono); font-size: 0.82rem; color: var(--te
 
 .channel-block { margin-bottom: 3.5rem; }
 .channel-block h2 { text-transform: lowercase; }
+.channel-link {
+  font-family: var(--body);
+  text-transform: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+.channel-link:hover { color: var(--gold); }
 
 .rank-tabs {
   display: flex;
